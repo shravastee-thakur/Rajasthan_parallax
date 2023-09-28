@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.8em;
+}
+
+.image1 {
+    background-image: url('./image/Cover1.jpg');
+    min-height: 100%;
+}
+
+.image2 {
+    background-image: url('./image/Hawamehal.jpg');
+    min-height: 100%;
+}
+.image3 {
+    background-image: url('./image/Jodhpur.jpg');
+    min-height: 100%;
+}
+
+.image4 {
+    background-image: url('./image/Udaipur.jpg');
+    min-height: 100%;
+}
+
+.image5 {
+    background-image: url('./image/Camelsafari.jpg');
+    min-height: 100%;
+}
+
+.image1, .image2, .image3, .image4, .image5 {
+    width: 100%;
+    height: 100vh;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+p {
+    padding: 20px 80px;
+    text-align: justify;
+    color: #fff;
+}
+
+
+h1 {
+    font-size: 40px;
+    font-weight: 600px;
+    text-align: center;
+    padding-top: 30px;
+    color: yellow;
+}
+.section-light {
+    background-color: rgb(90, 86, 60);
+}
